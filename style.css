@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* 
@@ -15,6 +16,10 @@ a {
 
 a:hover {
     opacity: 0.5;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
 }
 
 @media (min-width: 1000px) {
@@ -45,6 +50,108 @@ a:hover {
 
     .nav-link__other1 {
         font-size: 22px;
+        font-weight: 700;
+    }
+
+    header {
+        background-image: url(img/architecture-gf0bd132f8_1920\ 1.png);
+        height: 100vh;
+        width: 100%;
+        background-repeat: no-repeat;
+        display: flex;
+    }
+
+    .header-text {
+        font-size: 64px;
+        color: #fff;
+        font-weight: 700;
+        padding-left: 80px;
+        width: 800px;
+        padding-top: 277px;
+    }
+
+    .site-services {
+        width: 100%;
+        height: auto;
+        padding: 100px;
+        padding-bottom: 0;
+    }
+
+    .site-services__main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .text-services {
+        font-size: 64px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .site-services__link {
+        font-size: 30px;
+        color: #666;
+    }
+
+    .site-services__cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 35px;
+        padding-top: 43px;
+    }
+
+    .site-services__card {
+        background-image: url(img/card1.png);
+        width: 23%;
+        height: 380px;
+        background-repeat: no-repeat;
+        display: flex;
+        padding: 0 36px;
+        align-items: flex-end;
+        padding-bottom: 40px;
+        border-radius: 5px;
+    }
+
+    .site-services__card1 {
+        background-image: url(img/card2.png);
+        width: 23%;
+        height: 380px;
+        background-repeat: no-repeat;
+        display: flex;
+        padding: 0 36px;
+        align-items: flex-end;
+        padding-bottom: 40px;
+        border-radius: 5px;
+    }
+
+    .site-services__card2 {
+        background-image: url(img/card3.png);
+        width: 23%;
+        height: 380px;
+        background-repeat: no-repeat;
+        display: flex;
+        padding: 0 36px;
+        align-items: flex-end;
+        padding-bottom: 40px;
+        border-radius: 5px;
+    }
+
+    .site-services__card3 {
+        background-image: url(img/card4.png);
+        width: 23%;
+        height: 380px;
+        background-repeat: no-repeat;
+        display: flex;
+        padding: 0 36px;
+        align-items: flex-end;
+        padding-bottom: 40px;
+        border-radius: 5px;
+    }
+
+    .site-services__card--text {
+        font-size: 28px;
+        color: #fff;
         font-weight: 700;
     }
 }
