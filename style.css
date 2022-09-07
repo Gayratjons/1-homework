@@ -15,7 +15,7 @@ a {
 }
 
 a:hover {
-    opacity: 0.5;
+    opacity: 0.6;
 }
 
 p {
@@ -32,7 +32,6 @@ p {
         padding: 0 90px;
         position: fixed;
         background-color: #fff;
-
     }
 
     .nav-links {
@@ -164,6 +163,7 @@ p {
         width: 100%;
         height: 629px;
         background-repeat: no-repeat;
+        margin-top: 67px;
 
     }
 
@@ -207,5 +207,101 @@ p {
         font-weight: 700;
         color: #fff;
         text-transform: uppercase;
+    }
+
+    .site-our-work {
+        padding: 0 100px;
+    }
+
+
+    .kitchens-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-top: 52px;
+    }
+
+    .kitchen-photo {
+        width: 48%;
+        height: 300px;
+        border-radius: 2px;
+    }
+
+    .registration-container {
+        width: 100%;
+        height: 117vh;
+        background-image: url(img/Rectangle\ 38.png);
+        background-repeat: no-repeat;
+        padding: 0 100px;
+        padding-top: 35px;
+        margin-top: 70px;
+
+    }
+
+    .registration-container__text {
+        font-size: 48px;
+        text-align: center;
+        font-weight: 700;
+        color: #fff;
+        text-transform: uppercase;
+    }
+
+    .inputs-container {
+        width: 45%;
+    }
+
+    .inputs-container__text {
+        font-size: 60px;
+        color: #fff;
+    }
+
+    .inputs-container__text1 {
+        font-size: 36px;
+        color: #fff;
+    }
+
+    .input1 {
+        width: 100%;
+        height: 60px;
+        border-radius: 7px;
+        border: none;
+        outline-color: #f2f2f2;
+        text-transform: uppercase;
+        padding-left: 20px;
+        font-weight: 700;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .input2 {
+        width: 100%;
+        height: 150px;
+        border-radius: 7px;
+        border: none;
+        outline-color: #f2f2f2;
+        text-transform: uppercase;
+        padding-left: 20px;
+        font-weight: 700;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .registration-container__part {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+
+    .inputs-container__link {
+        font-size: 36px;
+        padding: 5px 35px;
+        background-color: #ED8435;
+        color: #fff;
+        border-radius: 10px;
+    }
+
+    .registration-container__map--part {
+        width: 40%;
     }
 }
