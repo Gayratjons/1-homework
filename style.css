@@ -22,14 +22,17 @@ p {
     font-family: 'Montserrat', sans-serif;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1050px) {
     nav {
-        width: 90%;
+        width: 100%;
         height: 100px;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin: 0 auto;
+        padding: 0 90px;
+        position: fixed;
+        background-color: #fff;
+
     }
 
     .nav-links {
@@ -153,5 +156,56 @@ p {
         font-size: 28px;
         color: #fff;
         font-weight: 700;
+    }
+
+    .site-5step-process {
+        background-image: url(img/7589.png);
+        padding: 76px 100px;
+        width: 100%;
+        height: 629px;
+        background-repeat: no-repeat;
+
+    }
+
+    .site-5step-process__text {
+        font-size: 50px;
+        font-weight: 800;
+        text-transform: uppercase;
+        color: #fff;
+    }
+
+    .site-5step-process__text1 {
+        padding-top: 15px;
+        font-size: 40px;
+        text-transform: uppercase;
+        color: #fff;
+    }
+
+    .site-5step-process__cards {
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+        padding-top: 50px;
+    }
+
+    .site-5step-process__card {
+        width: 18%;
+        height: 250px;
+        background-color: #ED8435;
+        padding: 0 35px;
+        border-radius: 1px;
+    }
+
+    .site-5step-process__card--text {
+        font-size: 105px;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    .site-5step-process__card--text2 {
+        font-size: 23px;
+        font-weight: 700;
+        color: #fff;
+        text-transform: uppercase;
     }
 }
