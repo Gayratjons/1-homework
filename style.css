@@ -304,4 +304,39 @@ p {
     .registration-container__map--part {
         width: 40%;
     }
+
+    footer {
+        padding: 75px 100px;
+        background-color: #000;
+    }
+
+    .footer-cards {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .footer-card {
+        width: 20%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-card__text {
+        color: #fff;
+        padding-left: 20px;
+    }
+
+    .footer-card__main--text {
+        font-size: 28px;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    .footer-card__link {
+        color: #fff;
+    }
 }
